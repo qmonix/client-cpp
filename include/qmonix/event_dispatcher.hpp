@@ -19,7 +19,7 @@ namespace qmonix
 
 		public:
 			/**
-			 * Creates a new HTTP event disaptcher and assigns
+			 * Creates a new HTTP event dispatcher and assigns
 			 * server address to it.
 			 *
 			 * @param server_address server address where collected
