@@ -10,7 +10,7 @@ See: http://docs.qmonix.com/latest/.
 Build prerequisites
 ===================
 
-* lib curl (libcurl4-openssl-dev on debian).
+* lib curl (libcurl4-openssl-dev on Debian).
 
 Optional
 -------
