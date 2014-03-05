@@ -47,7 +47,8 @@ namespace qmonix
 
 			/**
 			 * Sends collected events over HTTP to the server whose
-			 * address was specified with constructor.
+			 * address was specified with constructor. Clears the
+			 * collected event list.
 			 */
 			void dispatch(void);
 

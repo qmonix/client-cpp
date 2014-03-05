@@ -70,6 +70,7 @@ void
 event_dispatcher::dispatch(void)
 {
 	http_post(this->server_address, this->to_json());
+	this->collected_events.clear();
 }
 
 
