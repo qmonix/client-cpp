@@ -18,8 +18,6 @@ set (CMAKE_CXX_FLAGS_TESTCOVERAGE
 	"${CMAKE_CXX_FLAGS_DEBUG} -g -O0 -fprofile-arcs -ftest-coverage")
 
 set (CMAKE_CXX_FLAGS "-Wall -Wextra -Werror -pedantic")
-set (CMAKE_C_FLAGS "-fprofile-arcs -ftest-coverage")
-set (CMAKE_CXX_FLAGS "-fprofile-arcs -ftest-coverage")
 
 set (CMAKE_EXE_LINKER_FLAGS_TESTCOVERAGE "-fprofile-arcs -ftest-coverage")
 
