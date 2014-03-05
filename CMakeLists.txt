@@ -45,7 +45,7 @@ set (TEST_SRC_DIR "${CMAKE_CURRENT_SOURCE_DIR}/test")
 file (GLOB_RECURSE TEST_SRC_FILES "${TEST_SRC_DIR}/*.cpp")
 
 set (GTEST_DIR "${CMAKE_CURRENT_SOURCE_DIR}/lib/googletest")
-add_subdirectory (${GTEST_DIR})
+add_subdirectory (${GTEST_DIR} EXCLUDE_FROM_ALL)
 include_directories ("${GTEST_DIR}/include")
 
 
