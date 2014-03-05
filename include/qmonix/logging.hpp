@@ -22,7 +22,7 @@
 #define QLOG_INFO(log_expr) QLOG_("info", log_expr)
 
 /* Debug logs disabled on release build. */
-#ifdef QMONIX_BUILD_DEBUG
+#ifdef QMONIX_BUILD_RELEASE
 
 #define QLOG_DEBUG(log_expr) \
 { \
