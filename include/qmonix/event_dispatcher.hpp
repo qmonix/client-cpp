@@ -28,6 +28,10 @@ namespace qmonix
 			event_dispatcher(std::string server_address);
 
 
+			/**
+			 * Does not dispatch the collected events, this must
+			 * be done explicitly with dispatch().
+			 */
 			~event_dispatcher(void);
 
 

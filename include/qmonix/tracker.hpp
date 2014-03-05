@@ -30,7 +30,9 @@ namespace qmonix
 
 			/**
 			 * Destroys tracker and event dispatcher object
-			 * assigned to it.
+			 * assigned to it. Does not dispatch the collected
+			 * events, this must be done explicitly with
+			 * dispatch().
 			 */
 			~tracker(void);
 
