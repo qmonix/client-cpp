@@ -19,7 +19,7 @@ coverage:
 
 test: $(BUILD_DIR)
 	cd $(BUILD_DIR); cmake \
-		-DCMAKE_BUILD_TYPE=$(BUILD_TYPE) \
+		-DCMAKE_BUILD_TYPE=Test \
 		$(CURDIR); \
 		make build_test; \
 		make test
